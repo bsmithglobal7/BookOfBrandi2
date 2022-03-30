@@ -1,0 +1,278 @@
+/*index.html page*/
+
+ .grad {
+  background-image: linear-gradient(to bottom right,  deeppink,darkorchid, teal);
+  }
+  
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: darkorchid;
+}
+
+h1:hover { color: rgb(243, 134, 243);
+    background-color:azure;
+}
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:darkorchid;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+.introVideo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 25px;
+   background-color: darkorchid;
+   width: 720px;
+   height: 645px;
+   border-radius: 1px;
+   border-color: deeppink;
+   border-style: none;
+   border-width: 0px;
+   opacity: 1;
+}
+        
+
+.books {margin-left: 20%;
+  
+}
+
+/*FAVORITES.html page*/
+
+.tomatoIMG {
+  max-width: 85%;
+    height: 50%;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: pink;
+  padding: 5px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: upper-roman;;
+  padding:1 ;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 100px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 5cm;
+  }
+}           
+/* About Page */
+
+* {
+  box-sizing: border-box;
+}
+.aboutMe {
+  text-align: center;
+  background-image: linear-gradient(to bottom right,  deeppink,darkorchid, teal);
+  }
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.books {margin-left: 50%;
+  margin-right: 50%; 
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+/* Professional.html*/
+/* Animated bkgrnd*/
+
+/* Animated bkgrnd*/
+
+.bCnn {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Contact.html page*/
+
+.homeButton {background-color:pink;
+  padding: 1%; margin-left: 10%;}
+  
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 24px;
+          border: 1px solid #b5ffe6;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold; 
+        }
+     .phoneHeader {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+     }
+  
+     .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+    
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .Name {color: azure;}
+      
+      input[type=submit] {
+          background-color: #ffbbf4;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-family:Georgia,'Times New Roman', Times, serif;
+      font-weight: bolder;}
+      
+      input[type=submit]:hover {
+          background-color: #ff62e5;}
+      
+      .container {
+              border-radius: 10px;
+              background-color: #9b00af;
+              padding: 40px;}
+  
+  .brandiPayphone {
+    border-radius: 10px;
+    height:100%;
+    width:100%;
+  }
+  .brandiPayphone:hover {
+    transform: rotateY(180deg);
+  }
+  
